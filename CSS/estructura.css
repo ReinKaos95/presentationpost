@@ -1,0 +1,53 @@
+section{
+  float: left;
+}
+
+header{
+
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+aside{
+  float: right;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+footer, h5 {
+  position: absolute;
+  bottom: 3px;
+  right: 2px;
+  font-style: all;
+
+}
+.centre {
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgray;
+    border-radius: 20px;
+}
+
+h1,h4{
+  text-align: center;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 2px;
+  background-color: lightgray;
+      border-radius: 20px;
+}
+
+.all-browsers > h1, .browser {
+  margin: 5px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
